@@ -1,0 +1,581 @@
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #C1527B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100vw;
+    height: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 24pt;
+    color: #000000;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+/* HOME PAGE */
+.homebackground {
+    background-image: url(images/homebkg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hometitle {
+    font-family: "Archivo Black", sans-serif;
+    position: relative;
+    font-size: 80pt;
+    left: 50px;
+    top: -48px;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+
+}
+
+.homeline {
+    position: absolute;
+    width: 1000px;
+    height: 0px;
+    left: 28px;
+    top: 120px;
+    border: 6px solid black;
+}
+
+#about {
+    position: absolute;
+    width: 1375px;
+    height: 315px;
+    left: -835px;
+    top: 140px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 272px;
+    text-align: right;
+    color: #000000;
+}
+
+#gallery {
+    position: absolute;
+    width: 1375px;
+    height: 315px;
+    left: -500px;
+    top: 290px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 272px;
+    text-align: right;
+    color: #000000;
+}
+
+#style {
+    position: absolute;
+    width: 1375px;
+    height: 315px;
+    left: -770px;
+    top: 450px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 272px;
+    text-align: right;
+    color: #000000;
+}
+
+#career {
+    position: absolute;
+    width: 1375px;
+    height: 315px;
+    left: -552px;
+    top: 606px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 272px;
+    text-align: right;
+    color: #000000;
+}
+
+.debbie {
+    width: 623px;
+    height: 623px;
+    padding-left: 880px;
+    padding-top: 80px;
+    position: absolute;
+    z-index: -1;
+}
+
+.navbar1 a {
+    font-family: "Archivo Black", sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* ABOUT PAGE */
+.aboutbackground {
+    background-image: url(images/AdobeStock_15658970.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.abouttitle {
+    position: absolute;
+    width: 790px;
+    height: 196px;
+    left: -170px;
+    top: -85px;
+
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 218px;
+    text-align: center;
+    -webkit-text-stroke: 5px black;
+
+    color: #83D958;
+}
+
+.aboutline {
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 10px;
+    top: 220px;
+
+    border: 6px solid #C1527B;
+}
+
+
+.about {
+    position: absolute;
+    width: 1450px;
+    height: 587px;
+    left: 15px;
+    top: 220px;
+
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 45px;
+    /* or 70% */
+    color: #000000;
+    /* padding-right: 100px; */
+}
+
+
+.backgroundtitle {
+    position: absolute;
+    width: 1323px;
+    height: 196px;
+    left: 350px;
+    top: 800px;
+    -webkit-text-stroke: 5px black;
+
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 218px;
+    text-align: center;
+
+    color: #C1527B;
+}
+
+
+.backgroundline {
+    position: absolute;
+    width: 1100px;
+    height: 0px;
+    left: 398px;
+    top: 1150px;
+
+    border: 6px solid #83D958;
+}
+
+
+.background {
+    position: absolute;
+    /* width: 1557px; */
+    height: 587px;
+    left: 124px;
+    top: 1138px;
+    padding-right: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 45px;
+    /* or 68% */
+    text-align: right;
+
+    color: #000000;
+}
+
+/* Gallery Page */
+.gallerybackground {
+    background-image: url(images/AdobeStock_285630545.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.gallerytitle {
+    font-family: "Archivo Black", sans-serif;
+    position: relative;
+    font-size: 80pt;
+    left: 50px;
+    top: -28px;
+    color: #DB9948;
+    -webkit-text-stroke: 3px black;
+
+}
+
+.galleryline {
+    position: absolute;
+    width: 460px;
+    height: 0px;
+    left: 28px;
+    top: 160px;
+    border: 6px solid #E0D75C;
+}
+
+
+#gal1 {
+
+    position: absolute;
+    width: 286px;
+    height: 381px;
+    left: 1100px;
+    top: 100px;
+}
+
+.textgal1 {
+    position: absolute;
+    left: 1280px;
+    top: 230px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 14pt;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    color: #C1527B;
+}
+
+#gal2 {
+    position: absolute;
+    width: 204px;
+    height: 273px;
+    left: 820px;
+    top: 140px;
+}
+
+.textgal2 {
+    position: absolute;
+    left: 857px;
+    top: 400px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 14pt;
+    color: #83D958;
+}
+
+
+#gal3 {
+    position: absolute;
+    width: 267px;
+    height: 356px;
+    left: 927px;
+    top: 505px;
+}
+
+.textgal3 {
+    position: absolute;
+    left: 1150px;
+    top: 650px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 14pt;
+    transform: rotate(90deg);
+    color: #DB9948;
+}
+
+#gal4 {
+    position: absolute;
+    width: 185px;
+    height: 247px;
+    top: 210px
+}
+
+.textgal4 {
+    position: absolute;
+    left: 20px;
+    top: 443px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    color: #C1527B;
+}
+
+#gal5 {
+    position: absolute;
+    width: 196px;
+    height: 289px;
+    left: 30px;
+    top: 524px;
+}
+
+.textgal5 {
+    position: absolute;
+    top: 800px;
+    left: 40px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    color: #83D958;
+}
+
+#gal6 {
+    position: absolute;
+    width: 230px;
+    height: 306px;
+    left: 611px;
+    top: 474px;
+}
+
+.textgal6 {
+    position: absolute;
+    left: 610px;
+    top: 770px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    color: #DB9948;
+}
+
+#gal7 {
+    position: absolute;
+    width: 230px;
+    height: 306px;
+    left: 260px;
+    top: 224px;
+}
+
+.textgal7 {
+    position: absolute;
+    left: 252px;
+    top: 520px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    color: #C1527B;
+}
+
+#gal8 {
+    position: absolute;
+    width: 210px;
+    height: 294px;
+    left: 550px;
+    top: 90px;
+}
+
+.textgal8 {
+    position: absolute;
+    left: 565px;
+    top: 370px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    color: #83D958;
+}
+
+#gal9 {
+    position: absolute;
+    width: 193px;
+    height: 258px;
+    left: 330px;
+    top: 567px;
+}
+
+.textgal9 {
+    position: absolute;
+    left: 350px;
+    top: 820px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    color: #DB9948;
+}
+
+
+/* Style & Influences Page */
+
+.stylebackground {
+    background-color: #DB9948;
+}
+
+.styletitle {
+    position: absolute;
+    height: 196px;
+    left: 10px;
+    top: -30px;
+    font-weight: 400;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    color: #DB9948;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+.styletext {
+    position: absolute;
+    height: 900px;
+    left: 10px;
+    top: 200px;
+    padding-right: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    color: #DB9948;
+    text-shadow: 2px 5px 0px rgba(0, 0, 0, 0.72);
+    -webkit-text-stroke: 1px #c0853e;
+}
+
+.influencestitle {
+    position: absolute;
+    width: 790px;
+    height: 196px;
+    left: -40px;
+    top: 530px;
+    font-weight: 400;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    color: #DB9948;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+.influencetext {
+    position: absolute;
+    height: 900px;
+    left: 10px;
+    top: 750px;
+    padding-right: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    color: #DB9948;
+    text-shadow: 2px 5px 0px rgba(0, 0, 0, 0.72);
+    -webkit-text-stroke: 1px #c0853e;
+}
+
+/* Career Page */
+
+.careerbackground {
+    background-image: url(images/AdobeStock_15658970.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.careertitle {
+    position: absolute;
+    width: 790px;
+    height: 196px;
+    left: -130px;
+    top: -70px;
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 218px;
+    text-align: center;
+    -webkit-text-stroke: 3px black;
+    color: #83D958;
+}
+
+.careerline {
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 10px;
+    top: 220px;
+
+    border: 6px solid #DB9948;
+}
+.career{
+     position: absolute;
+    width: 1450px;
+    height: 587px;
+    left: 15px;
+    top: 220px;
+
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 30px;
+    /* or 70% */
+    color: #C1527B;
+}
+
+.achievementstitle{
+      position: absolute;
+    width: 790px;
+    height: 196px;
+    left: 430px;
+    top: 660px;
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 218px;
+    text-align: center;
+    -webkit-text-stroke: 3px black;
+    color: #83D958;
+}
+.achievementsline {
+     position: absolute;
+    width: 1100px;
+    height: 0px;
+    left: 380px;
+    top: 940px;
+
+    border: 6px solid #C1527B;
+}
+.achievements {
+    position: absolute;
+    width: 1450px;
+    height: 587px;
+    left: 305px;
+    top: 960px;
+
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 30px;
+    /* or 70% */
+    color: #DB9948;
+}
